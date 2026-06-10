@@ -1,0 +1,172 @@
+Live TV Hub — API & Playlist Sources
+Website: Live TV Hub
+URL: https://livetvhub.rf.gd/
+
+Note: These are public/free IPTV data sources and playlists used for loading channels and stream sources. They are not guaranteed to keep every channel online because public streams can be offline, region-limited, or changed by the source owner.
+
+============================================================
+MAIN API SOURCE
+============================================================
+
+Provider: iptv-org API
+Purpose: Main structured channel database, stream list, country list, and logo list.
+Base API:
+https://iptv-org.github.io/api
+
+API Endpoints:
+https://iptv-org.github.io/api/channels.json
+https://iptv-org.github.io/api/streams.json
+https://iptv-org.github.io/api/countries.json
+https://iptv-org.github.io/api/logos.json
+
+============================================================
+MAIN PLAYLIST SOURCE
+============================================================
+
+Provider: iptv-org Main Playlist
+Purpose: Main public IPTV playlist.
+https://iptv-org.github.io/iptv/index.m3u
+
+============================================================
+CATEGORY PLAYLIST SOURCES
+============================================================
+
+News:
+https://iptv-org.github.io/iptv/categories/news.m3u
+
+Sports:
+https://iptv-org.github.io/iptv/categories/sports.m3u
+
+Entertainment:
+https://iptv-org.github.io/iptv/categories/entertainment.m3u
+
+Movies:
+https://iptv-org.github.io/iptv/categories/movies.m3u
+
+Kids:
+https://iptv-org.github.io/iptv/categories/kids.m3u
+
+Music:
+https://iptv-org.github.io/iptv/categories/music.m3u
+
+Documentary:
+https://iptv-org.github.io/iptv/categories/documentary.m3u
+
+Education:
+https://iptv-org.github.io/iptv/categories/education.m3u
+
+Religious:
+https://iptv-org.github.io/iptv/categories/religious.m3u
+
+General:
+https://iptv-org.github.io/iptv/categories/general.m3u
+
+============================================================
+COUNTRY PLAYLIST SOURCES
+============================================================
+
+Bangladesh:
+https://iptv-org.github.io/iptv/countries/bd.m3u
+
+India:
+https://iptv-org.github.io/iptv/countries/in.m3u
+
+Pakistan:
+https://iptv-org.github.io/iptv/countries/pk.m3u
+
+United States:
+https://iptv-org.github.io/iptv/countries/us.m3u
+
+United Kingdom:
+https://iptv-org.github.io/iptv/countries/uk.m3u
+
+Great Britain:
+https://iptv-org.github.io/iptv/countries/gb.m3u
+
+Canada:
+https://iptv-org.github.io/iptv/countries/ca.m3u
+
+Australia:
+https://iptv-org.github.io/iptv/countries/au.m3u
+
+United Arab Emirates:
+https://iptv-org.github.io/iptv/countries/ae.m3u
+
+Saudi Arabia:
+https://iptv-org.github.io/iptv/countries/sa.m3u
+
+Qatar:
+https://iptv-org.github.io/iptv/countries/qa.m3u
+
+Brazil:
+https://iptv-org.github.io/iptv/countries/br.m3u
+
+Argentina:
+https://iptv-org.github.io/iptv/countries/ar.m3u
+
+Portugal:
+https://iptv-org.github.io/iptv/countries/pt.m3u
+
+Spain:
+https://iptv-org.github.io/iptv/countries/es.m3u
+
+France:
+https://iptv-org.github.io/iptv/countries/fr.m3u
+
+Germany:
+https://iptv-org.github.io/iptv/countries/de.m3u
+
+Italy:
+https://iptv-org.github.io/iptv/countries/it.m3u
+
+Turkey:
+https://iptv-org.github.io/iptv/countries/tr.m3u
+
+Indonesia:
+https://iptv-org.github.io/iptv/countries/id.m3u
+
+Malaysia:
+https://iptv-org.github.io/iptv/countries/my.m3u
+
+Japan:
+https://iptv-org.github.io/iptv/countries/jp.m3u
+
+South Korea:
+https://iptv-org.github.io/iptv/countries/kr.m3u
+
+============================================================
+EXTRA FALLBACK PLAYLIST SOURCE
+============================================================
+
+Provider: Free-TV/IPTV
+Purpose: Extra public playlist fallback. Duplicate streams should be ignored when used with other sources.
+https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8
+
+============================================================
+RECOMMENDED USE
+============================================================
+
+Use iptv-org API as the main source.
+Use iptv-org main playlist as the first playlist fallback.
+Use category playlists for section-based loading.
+Use country playlists for country filter loading.
+Use Free-TV/IPTV as an extra fallback source.
+
+Best order:
+1. iptv-org API
+2. iptv-org main playlist
+3. iptv-org category playlists
+4. iptv-org country playlists
+5. Free-TV/IPTV playlist
+
+============================================================
+OFFICIAL SUPPORT & COMMUNITY LINKS
+============================================================
+
+Use these official links for updates, support, channel requests, and quick contact.
+
+Telegram Profile:
+https://t.me/MdImranTm
+
+WhatsApp Contact:
+https://wa.me/8801538421302
